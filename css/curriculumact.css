@@ -40,8 +40,8 @@ html,body{
     align-items: center;
 }
 .label3{
-    width: 740px;
-    height: 120px;
+    width: 40%;
+    height: 190px;
     background-color: black;
     color: white;
     font-size: 1.3rem;
@@ -51,7 +51,7 @@ html,body{
     align-items: center;
 }
 .label4{
-    width: 740px;
+    width: 40%;
     height: 120px;
     background-color: black;
     color: white;
@@ -78,11 +78,11 @@ html,body{
     border-radius: 10px;
 }
 .lol{
-    width: 1320px;
+    width: 1399;
     background-color: #E7ECEF;
     color:#E7ECEF;
     text-align-last: center;
-    height: 1090px;
+    height: 1280px;
     justify-content: center;
     align-items: center;
     animation-name: animation_test;
@@ -134,7 +134,7 @@ html,body{
     background-color: #9b0c5f;
     color:#E7ECEF;
     text-align-last: center;
-    height: 250px;
+    height: 310px;
     justify-content: center;
     align-items: center;
     margin: 0rem;
