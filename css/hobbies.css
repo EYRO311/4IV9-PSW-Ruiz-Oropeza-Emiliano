@@ -97,13 +97,13 @@
     
     width: 100%;
     height: 100%;
-    background-color: #ccffbd;
+    background-color: #2b2e4a;
 }
 .izq{
     width: 20%;
     height: 100%;
     background-color: #DCDCDC;
-    float: left;
+    
     border-radius: 10px;
     align-items: center;
 }
