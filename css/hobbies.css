@@ -92,36 +92,4 @@
        margin-right: auto;
     }
     }
-    .fondo{
-    margin: auto;
     
-    width: 100%;
-    height: 100%;
-    background-color: #2b2e4a;
-}
-.izq{
-    width: 20%;
-    height: 100%;
-    background-color: #DCDCDC;
-    
-    border-radius: 10px;
-    align-items: center;
-}
-.arriba{
-    width: 100%;
-    height: 180px;
-    background-color:#31326f;
-    float: right;
-    border-radius: 10px;
-    text-align: center;
-    font-family: 'Train One', cursive;
-    text-shadow: black,2px 19px 9px;
-}
-.centro{
-    width: 80%;
-    height: 100%;
-    background-color:#8A2BE2;
-    float: right;
-    font-family: 'Train One', cursive;
-    border-radius: 10px;
-}
