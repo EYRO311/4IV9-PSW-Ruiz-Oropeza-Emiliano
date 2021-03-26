@@ -74,16 +74,16 @@
       width: 100%;
     }
     @media (min-width: 600px) {
-      .centro,
+      .centro{width: 85%;}
      .izq {
-        width: 50%;
+        width: 15%;
      }
     }
     @media (min-width: 800px) {
-    .arriba { width: 60%; }
-    .izquierda{ width: 40%; }
+    .arriba { width: 100%; }
+    .izquierda{ width: 15%; }
     .centro {
-      width: 33.3%;
+      width: 85%;
      }
 
     .container {
@@ -92,4 +92,26 @@
        margin-right: auto;
     }
     }
+    .fondo{
+    margin: auto;
+    background-color: #2b2e4a;
+}
+.izq{
+    background-color: #DCDCDC;
     
+    border-radius: 10px;
+}
+.arriba{
+    background-color:#31326f;
+    float: right;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Train One', cursive;
+    text-shadow: black,2px 19px 9px;
+}
+.centro{
+    background-color:#8A2BE2;
+    float: right;
+    font-family: 'Train One', cursive;
+    border-radius: 10px;
+}
