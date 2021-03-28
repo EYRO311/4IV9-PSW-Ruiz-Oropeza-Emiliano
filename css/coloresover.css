@@ -22,7 +22,7 @@
 
 }
 .style_prevu_kit:hover{
-    box-shadow: opx opx 150px #0000;
+    box-shadow: 0px 0   px 150px #0000;
     z-index: 2;
     
     -webkit-transition: all 200ms ease-in;
