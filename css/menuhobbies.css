@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #eee;
+    text-align: center;
+}
+
+html,body{
+    background-color: #52057b;
+}
+
+.main-container{
+    border: 5px solid #000;
+    border-radius: 10px;
+    margin: 2rem;
+    background-color: #892cdc;
+
+}
+
+nav,section,footer,article,aside{
+    border: 2px solid #000;
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+section,article{
+    width: 40%;
+    display: inline-block;
+    height: 100%;
+    background-color: #bc6ff1;
+}
+
+nav,section,footer{
+    height: auto;
+    background-color:#301b3f;
+}
