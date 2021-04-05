@@ -5,13 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
-    <link rel="stylesheet" href="./css/menuhobbies.css">
-    <script Language="javascript" type="text/javascript"
-    src="./js/validaformulario.js"></script>
+    <script Language="javascript" type="text/javascript" src="./js/validaformulario.js"></script>
 </head>
 <body>
-    <form method="GET" name="formulario"
-    action="formulario.html">
+    <form method="get" name="formulario"
+    action="formulario.html" onsubmit="return validar(this)">
     Nombre:
     <br>
     <input type="text" name="nombre" size="20">

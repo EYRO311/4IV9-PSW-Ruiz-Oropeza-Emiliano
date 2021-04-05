@@ -9,7 +9,7 @@
 }
 
 .menu li{
-  margin-right:10px;
+  margin: right 70px;;
 }
 .menu a{
   position: relative;
@@ -22,7 +22,7 @@
 
 .menu a span:first-child{
   display:inline-block;
-  padding: 50px;
+  padding: 40px;
 }
 .menu a span:Last-child{
   position: absolute;
@@ -36,7 +36,7 @@
   transform: translateY(-100%);
 }
 .menu {
-  font-size: 120%;
+  font-size: 21px;
 }
 .menu a:hover span:first-child{
   transform: translateY(100%);

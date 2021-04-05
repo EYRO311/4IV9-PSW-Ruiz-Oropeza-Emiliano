@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+		<title>L-Sabes .Inc</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+        <script src="assets/js/validaformulario.js"></script>
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+		<header class="header">
+			<div class="container logo-nav-container">
+				<a href="#" class="logo"><h1>L-Sabes</h1></a>
+				<nav class="navigation">
+					<ul>
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="conocenos.html">Conocenos</a></li>
+						<li><a href="serviciosproductos.html">Servicios</a></li>
+						<li><a href="casosexito.html">Casos de Exito</a></li>
+						<li><a href="contacto.html">Contacto</a></li>
+					</ul>
+				</nav>
+			</div><br>	
+		</header>
+
+		<!-- Main -->
+		<main class="main">
+            <section >
+						<h2>Ponerse en contacto</h2>
+						<p>Si desea saber más sobre nosotros, puede dejar sus datos de contacto a continuación y un mensaje de lo que quisiera saber, para responderle mejor.</p>
+						<div>
+							<div>
+								<form method="post" action="index.html" name="formulario" onsubmit="return validar(this)">
+									<div class="row gtr-uniform gtr-50">
+										<div><input type="text" name="nombre" id="name" placeholder=" Name"  required="" /></div>
+										<div><input type="text" name="apellido" id="apellido" placeholder="First Last Name"  required=""/></div>
+										<div><input type="email" name="email" id="email" placeholder="Email" required="" /></div>
+										<div><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+										<li><input type="submit" value="Enviar Datos" name="enviar" /></li>
+                                        <input type="button" value="Borrar" name="reset" onclick="borrar()">
+                                    </div>
+								</form>
+							</div>
+							<div>
+								<ul>
+									<li>
+										<h3><span class>Dirección/Adrees</span></h3>
+										Mar Mediterráneo 227, Popotla, 11400<br />
+										Ciudad de México, CDMX Ciudad de México<br />
+										Ciudad de México, México
+									</li>
+									<li>
+										<h3><span>Phone/Telefono</span></h3>
+										557-645-4903
+									</li>
+									<li>
+										<h3><span>Email/Correos</span></h3>
+										<a href="#">zmunozv1900@alumno.ipn.mx</a><br>
+                                        <a href="#">sarcer1800@alumno.ipn.mx</a><br>
+                                        <a href="#">jnapolesm1800@alumno.ipn.mx</a><br>
+                                        <a href="#">eruizo1801@alumno.ipn.mx</a><br>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+        			<footer>
+				<div class="container">
+					<p>Derechos Reservados &copy;</p>
+					<p>Página en construcción</p>
+				</div>
+			</footer>
+		<main>
+	</body>
+</html>
