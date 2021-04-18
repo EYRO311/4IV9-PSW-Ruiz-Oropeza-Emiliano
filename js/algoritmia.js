@@ -49,25 +49,78 @@ function problema3(){
         for(var j=0;j<  abcdario.length;j++){
             if(abcdario[j]==arreglo[i]){
                 p3_res.push(arreglo[i]);
-                if (arreglo[i]==","){
-                    v[p]=i;
+                if (arreglo[i]==","||i==arreglo.length-1){
+                    v[p]=i+1;
                     p=p+1;
                     
                 }
             }
         }
     }
+
     if (p!=0) {
        var temp=[];
-        for (i=0;i<p3_res.length;i++){
-            lol=p3_res.slice(i,v[i]);
+       var e=0;
+        for (i=0;i<p3_res.length;i=v[e]){
+            if(i!=0){
+                e+=1;
+            }
+            lol=p3_res.slice(i,v[e]);
             temp.push(lol); 
         } 
-    document.querySelector('#p3-output').textContent=temp+"/"+p+",";
+    
+        const unicos = [];
+        var kot=[];
+        for (i = 0; i< temp.length; i++) {
+            for(var j = 0; j < temp[i].length; j++) {
+                const elemento = temp[i][j];    
+                if (temp[i][j]!=','&& !unicos.includes(temp[i][j]) ) {
+                    unicos.push(elemento);
+                }
+            }
+            kot[i]=unicos.slice(0,unicos.length);
+            for (var m = 0; m < unicos.length; m++) {
+                delete unicos[m];
+            }
+        }
+        var listo=["El numero de caracteres unicos es:",":"];
+        for (var g = 0; g < kot.length; g++) {
+            if(g==0){
+                listo.push(kot[g].length);}
+            else{
+                listo.push(kot[g].length-kot[g-1].length);
+            }
+            listo.push("(");
+            listo.push(kot[g]);
+            listo.push(")");
+        
+        }
+        document.querySelector('#p3-output').textContent=listo;
     }else{
-        document.querySelector('#p3-output').textContent=p3_res+"/"+p+",";
+        const unicos = [];
+        var kot=[];
+        for (i = 0; i< p3_res.length; i++) {
+            const elemento = p3_res[i];    
+             if (temp[i]!=','&& !unicos.includes(temp[i]) ) {
+                    unicos.push(elemento);
+                }
+            kot[i]=unicos.slice(0,unicos.length);
+            for (var m = 0; m < unicos.length; m++) {
+                delete unicos[m];
+            }
+        }
+        var listo=["El numero de caracteres unicos es",":"];
+        for (var g = 0; g < kot.length; g++) {
+            if(g==0){
+                listo.push(kot[g].length);}
+            else{
+                listo.push(kot[g].length-kot[g-1].length);
+            }
+            listo.push("(");
+            listo.push(kot[g]);
+            listo.push(")");
+        
+        } 
+        document.querySelector('#p3-output').textContent=listo;
     }
-    
-       
-    
 }
