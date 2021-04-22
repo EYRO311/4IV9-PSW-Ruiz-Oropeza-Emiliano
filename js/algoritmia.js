@@ -83,7 +83,7 @@ function problema3(){
                 delete unicos[m];
             }
         }
-        var listo=["El numero de caracteres unicos es:",":"];
+        var listo=["El numero de caracteres unicos es:"];
         for (var g = 0; g < kot.length; g++) {
             if(g==0){
                 listo.push(kot[g].length);}
@@ -109,7 +109,7 @@ function problema3(){
                 delete unicos[m];
             }
         }
-        var listo=["El numero de caracteres unicos es",":"];
+        var listo=["El numero de caracteres unicos es:",];
         for (var g = 0; g < kot.length; g++) {
             if(g==0){
                 listo.push(kot[g].length);}
