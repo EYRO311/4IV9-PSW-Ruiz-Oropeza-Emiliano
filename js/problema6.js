@@ -32,16 +32,16 @@ function calcularEdad()
         var values=fecha.split("-");
         var dia = values[2];
         var mes = values[1];
-        var ano = values[0];
+        var año = values[0];
  
         
         var fecha_hoy = new Date();
-        var ahora_ano = fecha_hoy.getYear();
+        var ahora_año = fecha_hoy.getYear();
         var ahora_mes = fecha_hoy.getMonth()+1;
         var ahora_dia = fecha_hoy.getDate();
  
         
-        var edad = (ahora_ano + 1900) - ano;
+        var edad = (ahora_año + 1900) - año;
         if ( ahora_mes < mes )
         {
             edad--;

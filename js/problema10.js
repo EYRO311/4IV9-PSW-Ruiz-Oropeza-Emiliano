@@ -2,10 +2,11 @@ function calcular() {
     var vr1 = document.getElementById('sueldo').value;
     var vr2 = document.getElementById('antiguedad').value;
 
-    if(vr1<=100){
+    if(vr1<=100 || vr1>1000000){
         alert("eso no se puede") 
-    }
-    else{
+    }else if(vr2<0||vr2>50){
+        alert("eso no se puede") 
+    }else{
         if(vr2<1){
             var p =((parseFloat(vr1)*12)*.05)+vr1*12;
             document.getElementById('promedio').innerHTML = p;  
