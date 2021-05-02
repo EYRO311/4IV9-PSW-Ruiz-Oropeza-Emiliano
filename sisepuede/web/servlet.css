@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: black;
+    text-align: center;
+}
+
+html,body{
+    background-color: #04009a;
+    align-items: center;
+}
+
+div{
+    border: 5px solid #000;
+    border-radius: 10px;
+    margin: 2rem;
+    background-color: #77acf1;
+
+}
+
+nav{
+    border: 2px solid #000;
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+nav{
+    height: auto;
+    background-color:#3edbf0;
+}
+input,th,tr{
+    background-color:#c0fefc;
+}
+table{
+    border-color: black;
+}
